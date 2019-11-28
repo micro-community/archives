@@ -21,6 +21,7 @@ MASA架构认为企业只有前端和后端，企业的营销管理系统（Mark
 
 看起来挺像的，为什么Gartner说两者不一样呢？
 
+![Middle-Platform](Middle-Platform.png)
 
 中台是一层包含一定业务能力的应用平台。而MASA则涵盖了前端的用户体验、后端的业务能力，以及系统连接的方式。
 
