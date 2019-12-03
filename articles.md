@@ -2,24 +2,19 @@
 
 Chris Richardson 微服务系列全 7 篇：
 
-1. 微服务架构的优势与不足
++ 1.[「Chris Richardson 微服务系列」微服务架构的优势与不足](http://blog.daocloud.io/microservices-1/)
 
-2. 使用 API 网关构建微服务
++ 2.[「Chris Richardson 微服务系列」使用 API 网关构建微服务](http://blog.daocloud.io/microservices-2/)
 
-3. 微服务架构中的进程间通信
++ 3.[「Chris Richardson 微服务系列」微服务架构中的进程间通信](http://blog.daocloud.io/microservices-3/)
 
-4. 服务发现的可行方案以及实践案例
+4. 服务发现的可行方案以及实践案例 todo
 
-5. 微服务的事件驱动数据管理
+5. 微服务的事件驱动数据管理 todo
 
-6. 选择微服务部署策略
+6. 选择微服务部署策略 todo
 
-7. 将单体应用改造为微服务
-
-
-+ [「Chris Richardson 微服务系列」使用 API 网关构建微服务](http://blog.daocloud.io/microservices-2/)
-
-+ [「Chris Richardson 微服务系列」微服务架构中的进程间通信](http://blog.daocloud.io/microservices-3/)
+7. 将单体应用改造为微服务 todo
 
 
 
