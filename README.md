@@ -4,4 +4,4 @@
 
 + [什么是中台](Middle-Platform.md)
 
-+ [系列文章](arcticles.md)
++ [系列文章...](articles.md)
