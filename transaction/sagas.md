@@ -82,15 +82,19 @@ Sagas框架的核心是IBusinessActivity、IAtomicAction。IBusinessActivity完�
 
 微服务中使用工作流方式Sagas事务来保证数据完整
 
+![sagas2](http://mmbiz.qpic.cn/mmbiz_jpg/LaW7jDBKBg20ygGehFf5yZsSibbeicKAhQYOe68ic8RN9tfujZTXj2kMwvkIWWOsH5C2ibXR8YgHfIoRK7gDgk4hGQ/640?wx_fmt=jpeg)
+
 限于文章篇幅，本文不对具体实现做详述；后面找时间可以详细介绍基于Sagas长事务模型具体的实现框架。Sagas长事务需要交易提供反操作，支持事务的强一致性，由于没有在整个事务周期内锁定资源，对性能影响较小，适合对数据要求比较高的场景中使用。
 
 补偿模式
 
-Sagas长事务模型本质上是补偿机制的复杂实现，如果实际业务场景上不需要复杂的Sagas事务框架支撑，可以在业务中实现简单的补偿模式。补偿过程往往也同样需要实现最终一致性，需要保证取消服务至少被调用一次和取消服务必须实现幂等性。补偿模式可以参见同事田向阳的技术文章《微服务架构下数据一致性保证（三）》
+Sagas长事务模型本质上是补偿机制的复杂实现，如果实际业务场景上不需要复杂的Sagas事务框架支撑，可以在业务中实现简单的补偿模式。补偿过程往往也同样需要实现最终一致性，需要保证取消服务至少被调用一次和取消服务必须实现幂等性。
 
 
 
 微服务中使用工作流方式Sagas事务来保证数据完整
+
+![sagas3](http://mmbiz.qpic.cn/mmbiz_jpg/LaW7jDBKBg20ygGehFf5yZsSibbeicKAhQFjdM7geV3r48vwUKXgoib54RUvU2L2MdjyePfs8oovfwjPsA8y7ka2A/640?wx_fmt=jpeg)
 
 补偿机制不推荐在复杂场景（需要多个交易的编排）下使用，优点是非常容易提供回滚，而且依赖的服务也非常少，与Sagas长事务比较来看，使用起来更简便；缺点是会造成代码量庞大，耦合性高，对应无法提供反操作的交易不适合。
 
