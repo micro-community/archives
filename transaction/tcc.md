@@ -81,6 +81,7 @@ B完成其子事务，并将请求传递给C，依此类推。
 另外，随着长活事务中涉及的服务数量增长，服务之间的关系变得越来越难理解，很快便会呈现下图的死星形状。
 
 ![death star architecture](https://servicecomb.apache.org/assets/images/saga.death.star.png)
+
 图片来源: http://www.slideshare.net/BruceWong3/the-case-for-chaos (s12)
 
 同时，在长活事务中定位问题也变得更加复杂，因为服务日志遍布群集节点。
