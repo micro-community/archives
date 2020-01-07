@@ -1,4 +1,4 @@
-两阶段提交 Two-Phase Commit (2PC)
+# 两阶段提交 Two-Phase Commit (2PC)
 
 两阶段提交协议是一种分布式算法，用于协调参与分布式原子事务的所有进程，以保证他们均完成提交或中止（回滚）事务。1
 
@@ -78,10 +78,10 @@ Summary
 
 References:
 
-https://en.wikipedia.org/wiki/Two-phase_commit_protocol
-https://cs.nyu.edu/courses/spring03/G22.2631-001/lecture8.pdf
-http://courses.cs.vt.edu/~cs5204/fall00/distributedDBMS/duckett/tpcp.html
-https://www.infoq.com/presentations/Transactions-HTTP-REST
-https://www.nginx.com/blog/event-driven-data-management-microservices/
++ https://en.wikipedia.org/wiki/Two-phase_commit_protocol
++ https://cs.nyu.edu/courses/spring03/G22.2631-001/lecture8.pdf
++ http://courses.cs.vt.edu/~cs5204/fall00/distributedDBMS/duckett/tpcp.html
++ https://www.infoq.com/presentations/Transactions-HTTP-REST
++ https://www.nginx.com/blog/event-driven-data-management-microservices/
 
-[from https://servicecomb.apache.org/cn/docs/distributed_saga_3/](https://servicecomb.apache.org/cn/docs/distributed_saga_3/)
++  [from https://servicecomb.apache.org/cn/docs/distributed_saga_3/](https://servicecomb.apache.org/cn/docs/distributed_saga_3/)
