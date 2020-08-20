@@ -5,7 +5,7 @@
 
 + [distributed system(分布式系统)](./distributed-system/README.md)
 
-+ [什么是中台](Middle-Platform.md)
++ [什么是中台](middle-platform.md)
 
 + [系列文章...](articles.md)
 
