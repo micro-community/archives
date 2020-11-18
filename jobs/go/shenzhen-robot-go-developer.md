@@ -36,7 +36,7 @@
 
 联系方式，微信添加(备注：Go应聘）
 
-![code](https://gitee.com/GB28181/GB28181.Solution/raw/develop/docs/crazybber.jpg)
+![code](https://github.com/GB28181/GB28181.Solution/blob/develop/docs/crazybber.jpg)
 
 
 社区享独家福利：
